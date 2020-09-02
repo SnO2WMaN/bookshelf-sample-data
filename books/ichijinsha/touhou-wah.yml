@@ -22,11 +22,6 @@ books:
     isbn: "9784758013178"
     jan: *jan
     <<: *common
-  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(3)
-    publishedAt: 2013-07-27
-    isbn: "9784758013178"
-    jan: *jan
-    <<: *common
   - title: 東方茨歌仙 ～ Wild and Horned Hermit.(4)
     publishedAt: 2014-05-27
     isbn: "9784758013741"

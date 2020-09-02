@@ -9,7 +9,7 @@ common: &common
 books:
   - title: 東方酔蝶華 ～ ロータスイーター達の酔醒(1)
     publishedAt: 2020-08-26
-    isbn: "9784049133486"
+    isbn: "9784041098967"
     jan: &jan "1920979008403"
     page: 164
     <<: *common

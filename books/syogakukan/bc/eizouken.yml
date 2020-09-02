@@ -23,7 +23,7 @@ books:
     <<: *common
   - title: 映像研には手を出すな！(4)
     publishedAt: 2019-05-10
-    isbn: "9784098605316"
+    isbn: "9784098602414"
     jan: &jan "1929979005917"
     page: 160
     <<: *common
