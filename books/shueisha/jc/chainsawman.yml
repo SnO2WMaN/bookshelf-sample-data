@@ -1,0 +1,53 @@
+common: &common
+  authors:
+    - name: 藤本タツキ
+
+books:
+  - title: チェンソーマン(1)
+    isbn: 978-4-08-881780-4
+    jan: &jan "1929979004408"
+    publishedAt: 2019-03-04
+    page: 192
+    <<: *common
+  - title: チェンソーマン(2)
+    isbn: 978-4-08-881831-3
+    jan: *jan
+    publishedAt: 2019-05-02
+    page: 192
+    <<: *common
+  - title: チェンソーマン(3)
+    isbn: 978-4-08-882016-3
+    jan: *jan
+    publishedAt: 2019-08-02
+    page: 192
+    <<: *common
+  - title: チェンソーマン(4)
+    isbn: 978-4-08-882075-0
+    jan: *jan
+    publishedAt: 2019-10-04
+    page: 192
+    <<: *common
+  - title: チェンソーマン(5)
+    isbn: 978-4-08-882171-9
+    jan: *jan
+    publishedAt: 2020-01-04
+    page: 200
+    <<: *common
+  - title: チェンソーマン(6)
+    isbn: 978-4-08-882224-2
+    jan: *jan
+    publishedAt: 2020-03-04
+    page: 192
+    <<: *common
+  - title: チェンソーマン(7)
+    isbn: 978-4-08-882328-7
+    jan: *jan
+    publishedAt: 2019-06-04
+    page: 200
+    <<: *common
+  - title: チェンソーマン(8)
+    isbn: 978-4-08-882376-8
+    jan: *jan
+    publishedAt: 2020-08-04
+    page: 192
+    <<: *common

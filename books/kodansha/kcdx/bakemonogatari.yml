@@ -1,0 +1,70 @@
+common: &common
+  authors:
+    - name: 西尾 維新
+      roles:
+        - 原作
+    - name: 大暮 維人
+      roles:
+        - 漫画
+
+books:
+  - title: 化物語(1)
+    page: 184
+    isbn: 978-4-06-511617-3
+    jan: &jan "1929979006204"
+    publishedAt: 2018-06-15
+    <<: *common
+  - title: 化物語(2)
+    page: 192
+    isbn: 978-4-06-512333-1
+    jan: *jan
+    publishedAt: 2018-08-17
+    <<: *common
+  - title: 化物語(3)
+    isbn: 978-4-06-513313-2
+    jan: *jan
+    publishedAt: 2018-11-16
+    page: 192
+    <<: *common
+  - title: 化物語(4)
+    isbn: 978-4-06-513938-7
+    jan: *jan
+    publishedAt: 2019-01-17
+    page: 192
+    <<: *common
+  - title: 化物語(5)
+    isbn: 978-4-06-514889-1
+    jan: *jan
+    publishedAt: 2020-04-17
+    page: 200
+    <<: *common
+  - title: 化物語(6)
+    isbn: 978-4-06-515314-7
+    jan: *jan
+    publishedAt: 2020-07-17
+    page: 192
+    <<: *common
+  - title: 化物語(7)
+    isbn: 978-4-06-517166-0
+    jan: *jan
+    publishedAt: 2020-10-17
+    page: 200
+    <<: *common
+  - title: 化物語(8)
+    isbn: 978-4-06-518172-0
+    jan: *jan
+    publishedAt: 2020-02-17
+    page: 192
+    <<: *common
+  - title: 化物語(9)
+    isbn: 978-4-06-518853-8
+    jan: *jan
+    publishedAt: 2020-05-15
+    page: 192
+    <<: *common
+  - title: 化物語(10)
+    isbn: 978-4-06-520334-7
+    jan: *jan
+    publishedAt: 2020-08-17
+    page: 192
+    <<: *common

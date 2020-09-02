@@ -1,0 +1,64 @@
+common: &common
+  authors:
+    - name: ZUN
+      roles:
+        - 原作
+    - name: あずまあや
+      roles:
+        - 漫画
+books:
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(1)
+    publishedAt: 2011-06-27
+    isbn: "9784758012225"
+    jan: &jan "1929979008000"
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(2)
+    publishedAt: 2012-03-27
+    isbn: "9784041210031"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(3)
+    publishedAt: 2013-07-27
+    isbn: "9784758013178"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(3)
+    publishedAt: 2013-07-27
+    isbn: "9784758013178"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(4)
+    publishedAt: 2014-05-27
+    isbn: "9784758013741"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(5)
+    publishedAt: 2014-12-27
+    isbn: "9784758014199"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(6)
+    publishedAt: 2016-01-27
+    isbn: "9784758014847"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(7)
+    publishedAt: 2016-12-27
+    isbn: "9784758015349"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(8)
+    publishedAt: 2017-08-26
+    isbn: "9784758015738"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(9)
+    publishedAt: 2018-07-27
+    isbn: "9784758016100"
+    jan: *jan
+    <<: *common
+  - title: 東方茨歌仙 ～ Wild and Horned Hermit.(10)
+    publishedAt: 2019-09-27
+    isbn: "9784758016629"
+    jan: "1929979009007"
+    <<: *common

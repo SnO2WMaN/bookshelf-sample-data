@@ -1,0 +1,29 @@
+common: &common
+  authors:
+    - name: コトヤマ
+
+books:
+  - title: よふかしのうた(1)
+    publishedAt: 2019-11-18
+    isbn: "9784091294920"
+    jan: &jan "1929979004545"
+    page: 192
+    <<: *common
+  - title: よふかしのうた(2)
+    publishedAt: 2020-02-18
+    isbn: "9784091295569"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: よふかしのうた(3)
+    publishedAt: 2020-04-16
+    isbn: "9784098500642"
+    jan: *jan
+    page: 208
+    <<: *common
+  - title: よふかしのうた(4)
+    publishedAt: 2020-08-18
+    isbn: "9784098501632"
+    jan: *jan
+    page: 208
+    <<: *common

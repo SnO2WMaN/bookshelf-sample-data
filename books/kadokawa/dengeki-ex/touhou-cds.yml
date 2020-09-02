@@ -1,0 +1,15 @@
+common: &common
+  authors:
+    - name: ZUN
+      roles:
+        - 原作
+    - name: 銀木犀
+      roles:
+        - 漫画
+books:
+  - title: 東方智霊奇伝1 反則探偵さとり
+    publishedAt: 2020-08-26
+    isbn: "9784049133486"
+    jan: &jan "1929979008205"
+    page: 164
+    <<: *common

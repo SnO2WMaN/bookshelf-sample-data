@@ -1,0 +1,51 @@
+common: &common
+  authors:
+    - name: ZUN
+      roles:
+        - 原作
+    - name: 春河もえ
+      roles:
+        - 漫画
+books:
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(1)
+    publishedAt: 2013-03-21
+    isbn: "9784041206195"
+    jan: &jan "1920979007604"
+    page: 148
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(2)
+    publishedAt: 2014-02-26
+    isbn: "9784041210031"
+    jan: *jan
+    page: 180
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(3)
+    publishedAt: 2014-12-26
+    isbn: "9784041015858"
+    jan: &jan "1920979007802"
+    page: 180
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(4)
+    publishedAt: 2015-08-10
+    isbn: "9784041033463"
+    jan: *jan
+    page: 180
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(5)
+    publishedAt: 2016-04-26
+    isbn: "9784041042649"
+    jan: *jan
+    page: 180
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(6)
+    publishedAt: 2016-12-26
+    isbn: "9784041042670"
+    jan: *jan
+    page: 164
+    <<: *common
+  - title: 東方鈴奈庵　～　Forbidden Scrollery.(7)
+    publishedAt: 2020-08-26
+    isbn: "9784041060964"
+    jan: *jan
+    page: 156
+    <<: *common

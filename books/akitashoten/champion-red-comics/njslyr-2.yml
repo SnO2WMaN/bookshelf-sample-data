@@ -1,0 +1,38 @@
+common: &common
+  authors:
+    - name: ブラッドレー・ボンド＋フィリップ・N・モーゼズ
+      roles:
+        - 原作
+    - name: 余湖裕輝
+      roles:
+        - 漫画
+    - name: 田畑由秋
+      roles:
+        - 脚本
+
+books:
+  - title: ニンジャスレイヤー　キョート・ヘル・オン・アース(1)
+    publishedAt: 2019-01-18
+    isbn: 978-4-253-23916-5
+    jan: &jan "1929979006006"
+    <<: *common
+  - title: ニンジャスレイヤー　キョート・ヘル・オン・アース(2)
+    publishedAt: 2019-01-18
+    isbn: 978-4-253-23917-2
+    jan: *jan
+    <<: *common
+  - title: ニンジャスレイヤー　キョート・ヘル・オン・アース(3)
+    publishedAt: 2019-06-20
+    isbn: 978-4-253-23918-9
+    jan: &jan "1929979006303"
+    <<: *common
+  - title: ニンジャスレイヤー　キョート・ヘル・オン・アース(4)
+    publishedAt: 2019-11-20
+    isbn: 978-4-253-23919-6
+    jan: *jan
+    <<: *common
+  - title: ニンジャスレイヤー　キョート・ヘル・オン・アース(5)
+    publishedAt: 2019-04-20
+    isbn: 978-4-253-23920-2
+    jan: *jan
+    <<: *common

@@ -1,0 +1,34 @@
+common: &common
+  authors:
+    - name: 大童澄瞳
+
+books:
+  - title: 映像研には手を出すな！(1)
+    publishedAt: 2017-01-12
+    isbn: "9784091892966"
+    jan: &jan "1929979005528"
+    page:
+    <<: *common
+  - title: 映像研には手を出すな！(2)
+    publishedAt: 2017-09-12
+    isbn: "9784091896360"
+    jan: *jan
+    page: 160
+    <<: *common
+  - title: 映像研には手を出すな！(3)
+    publishedAt: 2018-06-12
+    isbn: "9784091898876"
+    jan: &jan
+    page: 160
+    <<: *common
+  - title: 映像研には手を出すな！(4)
+    publishedAt: 2019-05-10
+    isbn: "9784098605316"
+    jan: &jan "1929979005917"
+    page: 160
+    <<: *common
+  - title: 映像研には手を出すな！(5)
+    publishedAt: 2019-01-30
+    isbn: "9784098605316"
+    jan: *jan
+    <<: *common
