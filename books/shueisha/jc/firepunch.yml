@@ -1,0 +1,53 @@
+common: &common
+  authors:
+    - name: 藤本タツキ
+
+books:
+  - title: ファイアパンチ(1)
+    isbn: 978-4-08-880731-7
+    jan: &jan "1929979004002"
+    publishedAt: 2016-07-04
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(2)
+    isbn: 978-4-08-880797-3
+    jan: *jan
+    publishedAt: 2016-10-04
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(3)
+    isbn: 978-4-08-880873-4
+    jan: *jan
+    publishedAt: 2016-12-02
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(4)
+    isbn: 978-4-08-881014-0
+    jan: *jan
+    publishedAt: 2017-03-03
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(5)
+    isbn: 978-4-08-881061-4
+    jan: *jan
+    publishedAt: 2017-06-02
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(6)
+    isbn: 978-4-08-881147-5
+    jan: *jan
+    publishedAt: 2017-08-04
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(7)
+    isbn: 978-4-08-881170-3
+    jan: *jan
+    publishedAt: 2017-11-02
+    page: 208
+    <<: *common
+  - title: ファイアパンチ(8)
+    isbn: 978-4-08-881327-1
+    jan: *jan
+    publishedAt: 2018-02-02
+    page: 208
+    <<: *common
