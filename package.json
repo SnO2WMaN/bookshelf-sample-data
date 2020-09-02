@@ -1,0 +1,11 @@
+{
+  "name": "bookshelf-sampledata",
+  "private": true,
+  "scripts": {
+    "bundle": "node bundle.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "js-yaml": "^3.14.0"
+  }
+}
