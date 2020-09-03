@@ -1,0 +1,77 @@
+common: &common
+  authors:
+    - name: コトヤマ
+
+books:
+  - title: だがしかし(1)
+    publishedAt: 2014-09-18
+    isbn: "9784091251251"
+    jan: &jan "1929979004293"
+    page: 160
+    <<: *common
+  - title: だがしかし(2)
+    publishedAt: 2015-03-18
+    isbn: "9784091253996"
+    jan: *jan
+    page: 168
+    <<: *common
+  - title: だがしかし(3)
+    publishedAt: 2015-10-16
+    isbn: "9784091262103"
+    jan: *jan
+    page: 160
+    <<: *common
+  - title: だがしかし(4)
+    publishedAt: 2015-12-18
+    isbn: "9784091265708"
+    jan: *jan
+    page: 160
+    <<: *common
+  - title: だがしかし(5)
+    publishedAt: 2016-05-18
+    isbn: "9784091271600"
+    jan: *jan
+    page: 168
+    <<: *common
+  - title: だがしかし(6)
+    publishedAt: 2016-10-18
+    isbn: "9784091274083"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしかし(7)
+    publishedAt: 2017-03-17
+    isbn: "9784091275134"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしかし(8)
+    publishedAt: 2017-08-10
+    isbn: "9784091276810"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしかし(9)
+    publishedAt: 2017-12-18
+    isbn: "9784091278821"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしかし(10)
+    publishedAt: 2018-02-16
+    isbn: "9784091280831"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしかし(11)
+    publishedAt: 2018-05-18
+    isbn: "9784091282477"
+    jan: *jan
+    page: 192
+    <<: *common
+  - title: だがしなど ～未収録作品＆イラスト集～
+    publishedAt: 2019-11-18
+    isbn: "9784091295316"
+    jan: "1929979007003"
+    page: 144
+    <<: *common

@@ -1,0 +1,39 @@
+common: &common
+  authors:
+    - name: 伊瀬 勝良
+      roles:
+        - 原作
+    - name: 横田 卓馬
+      roles:
+        - 漫画
+books:
+  - title: すべての人類を破壊する。それらは再生できない。(1)
+    isbn: "9784041083536"
+    jan: &jan "1920979006201"
+    publishedAt: 2019-05-25
+    page: 196
+    <<: *common
+  - title: すべての人類を破壊する。それらは再生できない。(2)
+    isbn: "9784041086957"
+    jan: *jan
+    publishedAt: 2019-08-26
+    page: 178
+    <<: *common
+  - title: すべての人類を破壊する。それらは再生できない。(3)
+    isbn: "9784041088548"
+    jan: *jan
+    publishedAt: 2019-11-26
+    page: 196
+    <<: *common
+  - title: すべての人類を破壊する。それらは再生できない。(4)
+    isbn: "9784041088555"
+    jan: *jan
+    publishedAt: 2020-03-26
+    page: 196
+    <<: *common
+  - title: すべての人類を破壊する。それらは再生できない。(5)
+    isbn: "9784041097342"
+    jan: &jan "1920979006409"
+    publishedAt: 2020-07-21
+    page: 194
+    <<: *common
