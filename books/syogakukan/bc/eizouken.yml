@@ -18,7 +18,7 @@ books:
   - title: 映像研には手を出すな！(3)
     publishedAt: 2018-06-12
     isbn: "9784091898876"
-    jan: &jan
+    jan: *jan
     page: 160
     <<: *common
   - title: 映像研には手を出すな！(4)

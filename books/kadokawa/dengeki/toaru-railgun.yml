@@ -19,14 +19,14 @@ books:
     isbn: "9784048671460"
     jan: *jan
     page: 192
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(3)
     publishedAt: 2009-02-27
     isbn: "9784048677196"
     jan: *jan
     page: 208
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(4)
     publishedAt: 2009-10-27
@@ -49,7 +49,7 @@ books:
     isbn: "9784048686860"
     jan: &jan "1929979006006"
     page: 242
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(6)
     publishedAt: 2011-02-26
@@ -79,54 +79,54 @@ books:
     isbn: "9784048911016"
     jan: &jan "1929979006204"
     page: 242
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(9)
     publishedAt: 2013-08-27
     isbn: "9784048918442"
     jan: *jan
     page: 242
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(10)
     publishedAt: 2014-07-26
     isbn: "9784048666985"
     jan: &jan "1929979006501"
     page: 272
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(11)
     publishedAt: 2015-10-27
     isbn: "9784048654319"
     jan: &jan "1929979006204"
     page: 242
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(12)
     publishedAt: 2016-11-26
     isbn: "9784048662932"
     jan: &jan "9784048923651"
     page: 240
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(13)
     publishedAt: 2017-11-27
     isbn: "9784048934251"
     jan: &jan "1929979006006"
     page: 226
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(14)
     publishedAt: 2018-10-11
     isbn: "9784049121469"
     jan: &jan "1929979006303"
     page: 224
-    authors: &authors
+    authors: *authors
     <<: *common
   - title: とある魔術の禁書目録外伝 とある科学の超電磁砲(15)
     publishedAt: 2009-10-10
     isbn: "9784049128383"
     jan: &jan "1929979006808"
     page: 208
-    authors: &authors
+    authors: *authors
     <<: *common
